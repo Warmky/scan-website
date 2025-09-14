@@ -1,6 +1,8 @@
 package main
 
-import "scan-website/measurement"
+import (
+	"scan-website/actualconnect"
+)
 
 func main() {
 	//check()
@@ -17,5 +19,6 @@ func main() {
 	//check_dif_fromjson() //privacy_jsoncheck.go
 	//measurement.CountDomainsWithValidConfig("/home/wzq/scan-website/cmd/init.jsonl")
 	//measurement.Check()
-	measurement.Count()
+	//measurement.Count()
+	actualconnect.Extract_no_such_host()
 }
