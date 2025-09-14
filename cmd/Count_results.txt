@@ -1,0 +1,82 @@
+
+Count result for Method: Autodiscover
+SMTP_587:42
+Error_root element <Autodiscover> lost:0
+ssl_off:9
+Error_missing <User> element:0
+Error_missing <Account> element:1
+SMTP_465:256
+enc_ssl:9
+enc_tls:41
+ssl_on:282
+POP3_110:13
+enc_auto:10
+enc_not_valid:6
+Error_<AccountType> must be 'email':0
+ssl_default_on:74
+Error_missing <DisplayName> in <User>:0
+Error_<Action> must be 'settings':0
+OverallCheck_not_valid:12
+POP3_995:138
+SMTP_2525:0
+SMTP_unexp:6
+not_any_enc:0
+IMAP_143:20
+IMAP_993:288
+SMTP_25:12
+ssl_not_valid:0
+IMAP_unexp:4
+POP3_unexp:1
+protocol_count:784
+Error_missing <Response> element:0
+Usage of Autodiscover: 294
+
+Count result for Method: Autoconfig
+SMTP_465:1642
+SMTP_2525:1
+Error_missing <emailProvider> element:0
+finalStatus_not_valid:343
+POP3_110:408
+POP3_unexp:1
+TLS:0
+Error_missing root element <clientConfig>:0
+STARTTLS:486
+IMAP_143:407
+IMAP_993:1683
+POP3_995:1566
+SSL:1702
+plain:13
+ssl_not_valid:0
+protocol_count:6269
+IMAP_unexp:0
+SMTP_587:481
+SMTP_25:10
+SMTP_unexp:2
+Usage of Autoconfig: 1893
+
+Count result for Method: SRV
+IMAPS_993:173
+SMTP_587:71
+SMTPS_587:7
+protocol_count:604
+IMAP_143:46
+SMTP_465:20
+SMTPS_25:0
+SMTPS_2525:0
+IMAP_unexp:2
+IMAPS_143:0
+POP3_unexp:2
+POP3S_110:0
+POP3S_995:142
+POP3S_unexp:0
+SMTP_2525:4
+SMTP_unexp:0
+IMAP_993:1
+OverallCheck_not_valid:0
+SMTPS_465:81
+POP3_110:43
+POP3_995:1
+SMTP_25:11
+SMTPS_unexp:0
+IMAPS_unexp:0
+Usage of SRV: 178

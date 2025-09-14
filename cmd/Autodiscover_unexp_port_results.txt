@@ -1,0 +1,11 @@
+unexp smtp port in domain bol.com.br,smtps.bol.com.br,undefined
+unexp imap port in domain pm.me,127.0.0.1,1143
+unexp smtp port in domain pm.me,127.0.0.1,1025
+unexp imap port in domain protonmail.com,127.0.0.1,1143
+unexp smtp port in domain protonmail.com,127.0.0.1,1025
+unexp imap port in domain proton.me,127.0.0.1,1143
+unexp smtp port in domain proton.me,127.0.0.1,1025
+unexp imap port in domain rr.ccs.pl,,
+unexp pop3 port in domain rr.ccs.pl,,
+unexp smtp port in domain rr.ccs.pl,,
+unexp smtp port in domain uol.com.br,smtps.uol.com.br,undefined

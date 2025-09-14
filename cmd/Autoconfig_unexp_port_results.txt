@@ -1,0 +1,3 @@
+unexp pop3 port in domain gamil.com,mail.s1394.sureserver.com,1100
+unexp smtp port in domain rediffmail.com,smtp.rediffmail.com,586
+unexp smtp port in domain sweb.cz,smtp.stable.cz,366

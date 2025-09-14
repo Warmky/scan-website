@@ -1,0 +1,4 @@
+unexp imap port in domain bell.net,bell.net.,0
+unexp pop3 port in domain bell.net,bell.net.,0
+unexp imap port in domain sympatico.ca,sympatico.ca.,0
+unexp pop3 port in domain sympatico.ca,sympatico.ca.,0

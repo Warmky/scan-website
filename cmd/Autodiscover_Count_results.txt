@@ -1,0 +1,27 @@
+protocol among Protocols is invalid: 5july.org
+protocol among Protocols is invalid: bell.net
+Not valid <Encryption> value in domain bell.net:tls
+protocol among Protocols is invalid: ee1.pl
+Not valid <Encryption> value in domain ee1.pl:STARTTLS
+protocol among Protocols is invalid: einmalmail.de
+protocol among Protocols is invalid: einmalmail.de
+protocol among Protocols is invalid: einmalmail.de
+protocol among Protocols is invalid: einmalmail.de
+protocol among Protocols is invalid: mail.co.za
+protocol among Protocols is invalid: northgates.net
+protocol among Protocols is invalid: perfectmail.com
+protocol among Protocols is invalid: perfectmail.com
+protocol among Protocols is invalid: perfectmail.com
+protocol among Protocols is invalid: perfectmail.com
+protocol among Protocols is invalid: perfectmail.com
+protocol among Protocols is invalid: riddermark.de
+protocol among Protocols is invalid: riddermark.de
+protocol among Protocols is invalid: riddermark.de
+protocol among Protocols is invalid: riddermark.de
+protocol among Protocols is invalid: online.de
+protocol among Protocols is invalid: rr.ccs.pl
+protocol among Protocols is invalid: rr.ccs.pl
+protocol among Protocols is invalid: rr.ccs.pl
+protocol among Protocols is invalid: sympatico.ca
+Not valid <Encryption> value in domain sympatico.ca:tls
+Error_missing <Account> element: zoho.com
