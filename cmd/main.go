@@ -1,7 +1,7 @@
 package main
 
 import (
-	"scan-website/actualconnect"
+	"scan-website/measurement"
 )
 
 func main() {
@@ -17,8 +17,9 @@ func main() {
 	// analyze_no_autodiscover_config()
 	//analyze_no_autoconfig_config()
 	//check_dif_fromjson() //privacy_jsoncheck.go
-	//measurement.CountDomainsWithValidConfig("/home/wzq/scan-website/cmd/init.jsonl")
+	measurement.CountDomainsWithValidConfig("/home/wzq/scan-website/cmd/init.jsonl")
 	//measurement.Check()
 	//measurement.Count()
-	actualconnect.Extract_no_such_host()
+	//actualconnect.Extract_no_such_host()
+	//measurement.CountDomains_Certinfo("/home/wzq/scan-website/cmd/init.jsonl")
 }

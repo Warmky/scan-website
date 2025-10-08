@@ -1,0 +1,15 @@
+source,target,value
+.com,small_provider,71
+.io,small_provider,1
+others,cpanel.net,27
+.com,cpanel.net,31
+.net,cpanel.net,9
+.io,cpanel.net,1
+.org,small_provider,4
+others,small_provider,147
+.net,small_provider,26
+.com,fastmail.com,33
+.net,fastmail.com,29
+.org,fastmail.com,2
+others,fastmail.com,9
+.co,small_provider,1

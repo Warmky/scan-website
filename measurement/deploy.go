@@ -53,6 +53,15 @@ func CountDomainsWithValidConfig(inputFile string) {
 		validAutoconfigAndSRV          = make(map[string]struct{})
 		validThreeAll                  = make(map[string]struct{})
 		validNone                      = make(map[string]struct{})
+		validGuessDomains              = make(map[string]struct{}) //9.22
+		validNoneFour                  = make(map[string]struct{}) //9.22
+		// 定义 SRV 协议分类统计
+		srvIMAPDomains        = make(map[string]struct{})
+		srvIMAPSUDomains      = make(map[string]struct{})
+		srvPOP3Domains        = make(map[string]struct{})
+		srvPOP3SDomains       = make(map[string]struct{})
+		srvSubmissionDomains  = make(map[string]struct{})
+		srvSubmissionsDomains = make(map[string]struct{})
 	)
 
 	// 互斥锁保护共享变量
@@ -142,6 +151,38 @@ func CountDomainsWithValidConfig(inputFile string) {
 				validSRVDomains[domain] = struct{}{}
 				mu.Unlock()
 
+				// 遍历 RecvRecords (IMAP/POP3)
+				for _, record := range obj.SRV.RecvRecords {
+					service := strings.ToLower(record.Service)
+					mu.Lock()
+					if strings.HasPrefix(service, "_imap.") {
+						srvIMAPDomains[domain] = struct{}{}
+					}
+					if strings.HasPrefix(service, "_imaps.") {
+						srvIMAPSUDomains[domain] = struct{}{}
+					}
+					if strings.HasPrefix(service, "_pop3.") {
+						srvPOP3Domains[domain] = struct{}{}
+					}
+					if strings.HasPrefix(service, "_pop3s.") {
+						srvPOP3SDomains[domain] = struct{}{}
+					}
+					mu.Unlock()
+				}
+
+				// 遍历 SendRecords (SMTP)
+				for _, record := range obj.SRV.SendRecords {
+					service := strings.ToLower(record.Service)
+					mu.Lock()
+					if strings.HasPrefix(service, "_submission.") {
+						srvSubmissionDomains[domain] = struct{}{}
+					}
+					if strings.HasPrefix(service, "_submissions.") {
+						srvSubmissionsDomains[domain] = struct{}{}
+					}
+					mu.Unlock()
+				}
+
 				// 检查 DNSSEC
 				if obj.SRV.DNSRecord != nil {
 					dnssecPassed := true
@@ -173,11 +214,21 @@ func CountDomainsWithValidConfig(inputFile string) {
 				}
 			}
 
+			//GUESS统计
+			for _, entry := range obj.GUESS {
+				if len(entry) != 0 {
+					mu.Lock()
+					validGuessDomains[domain] = struct{}{}
+					mu.Unlock()
+				}
+			}
+
 			// 分类统计
 			mu.Lock()
 			_, hasAutoconfig := validAutoconfigDomains[domain]
 			_, hasAutodiscover := validAutodiscoverDomains[domain]
 			_, hasSRV := validSRVDomains[domain]
+			_, hasGUESS := validGuessDomains[domain]
 
 			// switch {
 			// case hasAutoconfig && hasAutodiscover && hasSRV:
@@ -221,6 +272,9 @@ func CountDomainsWithValidConfig(inputFile string) {
 			if !hasAutoconfig && !hasAutodiscover && !hasSRV {
 				validNone[domain] = struct{}{}
 			}
+			if !hasGUESS && !hasAutoconfig && !hasAutodiscover && !hasSRV {
+				validNoneFour[domain] = struct{}{}
+			}
 			mu.Unlock()
 		}(obj)
 	}
@@ -252,7 +306,15 @@ func CountDomainsWithValidConfig(inputFile string) {
 	fmt.Printf("✅ 仅可以通过 Autodiscover 获取配置信息的域名数量: %d\n", len(validOnlyAutodiscover))
 	fmt.Printf("✅ 仅可以通过 Autoconfig 获取配置信息的域名数量: %d\n", len(validOnlyAutoconfig))
 	fmt.Printf("✅ 仅可以通过 SRV 获取配置信息的域名数量: %d\n", len(validOnlySRV))
-	fmt.Printf("✅ 无法通过任意方法获取配置信息的域名数量: %d\n", len(validNone))
+	fmt.Printf("✅ 无法通过前三种任意方法获取配置信息的域名数量: %d\n", len(validNone))
+	fmt.Printf("✅ 无法通过四种任意方法获取配置信息的域名数量: %d\n", len(validNoneFour))
+	fmt.Printf("✅ 可以通过GUESS获取配置信息的域名数量: %d\n", len(validGuessDomains))
+	fmt.Printf("📌 SRV(IMAP) 域名数量: %d\n", len(srvIMAPDomains))
+	fmt.Printf("📌 SRV(IMAPS) 域名数量: %d\n", len(srvIMAPSUDomains))
+	fmt.Printf("📌 SRV(POP3) 域名数量: %d\n", len(srvPOP3Domains))
+	fmt.Printf("📌 SRV(POP3S) 域名数量: %d\n", len(srvPOP3SDomains))
+	fmt.Printf("📌 SRV(Submission) 域名数量: %d\n", len(srvSubmissionDomains))
+	fmt.Printf("📌 SRV(Submissions) 域名数量: %d\n", len(srvSubmissionsDomains))
 
 	fmt.Printf("✅ 一共处理了域名数量: %d\n", domainProcessed)
 	mu.Lock()
@@ -284,6 +346,8 @@ func CountDomainsWithValidConfig(inputFile string) {
 		"valid_only_autoconfig":             mapToSlice(validOnlyAutoconfig),
 		"valid_only_srv":                    mapToSlice(validOnlySRV),
 		"valid_none":                        mapToSlice(validNone),
+		"valid_none_four":                   mapToSlice(validNoneFour),
+		"valid_guess":                       mapToSlice(validGuessDomains),
 	}
 
 	if err := saveToJSON("domain_stats.json", dataToSave); err != nil {

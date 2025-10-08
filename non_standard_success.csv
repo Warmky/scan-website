@@ -1,0 +1,5 @@
+🔍 查找非常规端口的成功连接...
+Domain,Config,Extra
+mail.s1394.sureserver.com,pop3-1100,plain
+mail.s1394.sureserver.com,pop3-1100,starttls
+smtp.rediffmail.com,smtp-586,smtps
