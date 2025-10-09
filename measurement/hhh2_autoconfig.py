@@ -23,7 +23,7 @@ for provider, customers in redirect_stats.items():
     total_customers = len(customers)  # 获取当前 provider 的客户数量
 
     # 判断是否是 small_provider
-    is_small_provider = total_customers < 1 # 10
+    is_small_provider = total_customers < 2 # 10
 
     for customer in customers:
         # 检查每个 customer 的顶级域名
@@ -61,6 +61,6 @@ for provider, customers in redirect_stats.items():
 
 # 创建 DataFrame 并保存为 CSV
 df = pd.DataFrame({"source": source, "target": target, "value": value})
-df.to_csv("/home/wzq/scan-website/cmd/redirects_tld_statistics_autoconfig_nosmall.csv", index=False, encoding="utf-8")
+df.to_csv("/home/wzq/scan-website/cmd/redirects_tld_statistics_autoconfig_2.csv", index=False, encoding="utf-8")
 
 print("新CSV文件已生成：redirects_tld_statistics_320_autoconfig.csv")
