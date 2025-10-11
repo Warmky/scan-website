@@ -2,7 +2,8 @@
 
 # 定义 JSON 文件路径
 JSON_FILE="/home/wzq/scan-website/clusters.json"
-OUTPUT_DIR="real"
+# OUTPUT_DIR="real"
+OUTPUT_DIR="realv2"
 
 # 确保输出目录存在
 mkdir -p "$OUTPUT_DIR"

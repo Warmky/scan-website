@@ -23,7 +23,7 @@ def extract_http_usage(input_file, output_file):
                     # 获取重定向链中的状态码
                     chainlast_autodiscover_code = redirects[-1].get("Status")
                     
-                    # 筛选状态码在 200 到 299 之间的且没有解析错误的重定向链
+                    # 筛选状态码在 200 到 299 之间的且没有解析错误的重定向链，其实没有解析XML,Errorcode可能有影响TODO
                     if (200 <= chainlast_autodiscover_code < 300 and 
                         not entry.get("error", "").startswith("failed to unmarshal") and 
                         not entry.get("error", "").startswith("failed to read response body")):
