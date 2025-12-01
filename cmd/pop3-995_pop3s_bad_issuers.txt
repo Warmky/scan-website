@@ -1,0 +1,11 @@
+Certigna Wild CA
+DigiCert Global G2 TLS RSA SHA256 2020 CA1
+GlobalSign GCC R6 AlphaSSL CA 2023
+Plesk
+R10
+R11
+R12
+RapidSSL TLS RSA CA G1
+Sectigo RSA Domain Validation Secure Server CA
+Sectigo RSA Organization Validation Secure Server CA
+post.monarchmail.xyz

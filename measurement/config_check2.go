@@ -140,10 +140,10 @@ func comparePortsUsage(autodiscover, autoconfig []map[string]interface{}, srv ma
 		for _, item := range results {
 			if ports, ok := item["ports_usage"].([]PortUsageDetail); ok {
 				for _, p := range ports {
-					ssl := strings.ToUpper(p.SSL)
-					if ssl == "ON" || ssl == "SSL" || ssl == "TLS" {
+					ssl := p.SSL
+					if ssl == "on" || ssl == "ssl" || ssl == "tls" || ssl == "STARTTLS" {
 						ssl = "SSL"
-					} else if ssl == "OFF" || ssl == "PLAIN" {
+					} else if ssl == "off" || ssl == "plain" {
 						ssl = "PLAIN"
 					}
 					out = append(out, PortUsageDetail{
@@ -178,16 +178,31 @@ func comparePortsUsage(autodiscover, autoconfig []map[string]interface{}, srv ma
 
 						proto := ""
 						ssl := ""
+						// if strings.Contains(service, "_imaps") {
+						// 	proto, ssl = "IMAP", "SSL"
+						// } else if strings.Contains(service, "_imap") {
+						// 	proto, ssl = "IMAP", "STARTTLS"
+						// } else if strings.Contains(service, "_pop3s") {
+						// 	proto, ssl = "POP3", "SSL"
+						// } else if strings.Contains(service, "_pop3") {
+						// 	proto, ssl = "POP3", "STARTTLS"
+						// } else if strings.Contains(service, "_submissions") {
+						// 	proto, ssl = "SMTP", "SSL"
+						// } else if strings.Contains(service, "_submission") {
+						// 	proto, ssl = "SMTP", "STARTTLS"
+						// }
 						if strings.Contains(service, "_imaps") {
-							proto, ssl = "IMAP", "SSL"
+							proto, ssl = "IMAP", "on"
 						} else if strings.Contains(service, "_imap") {
-							proto, ssl = "IMAP", "STARTTLS"
+							proto, ssl = "IMAP", "off"
 						} else if strings.Contains(service, "_pop3s") {
-							proto, ssl = "POP3", "SSL"
+							proto, ssl = "POP3", "on"
 						} else if strings.Contains(service, "_pop3") {
-							proto, ssl = "POP3", "STARTTLS"
+							proto, ssl = "POP3", "off"
+						} else if strings.Contains(service, "_submissions") {
+							proto, ssl = "SMTP", "on"
 						} else if strings.Contains(service, "_submission") {
-							proto, ssl = "SMTP", "STARTTLS"
+							proto, ssl = "SMTP", "off"
 						}
 
 						combined = append(combined, PortUsageDetail{
@@ -277,13 +292,13 @@ func processDomainResult2(obj models.DomainResult) *DomainCheckDifResult {
 
 			PortsUsage := calculatePort_Autodiscover(entry.Config)
 			validResults = append(validResults, map[string]interface{}{
-				"index":       entry.Index,
-				"uri":         entry.URI,
-				"method":      entry.Method,
-				"config":      entry.Config,
+				"index":  entry.Index,
+				"uri":    entry.URI,
+				"method": entry.Method,
+				//"config":      entry.Config,
 				"ports_usage": PortsUsage,
-				"redirects":   entry.Redirects,
-				"cert_info":   entry.CertInfo,
+				//"redirects":   entry.Redirects,
+				//"cert_info":   entry.CertInfo,
 			})
 		}
 	}
@@ -298,13 +313,13 @@ func processDomainResult2(obj models.DomainResult) *DomainCheckDifResult {
 			}
 			PortsUsage := calculatePort_Autoconfig(entry.Config)
 			validacResults = append(validacResults, map[string]interface{}{
-				"index":       entry.Index,
-				"uri":         entry.URI,
-				"method":      entry.Method,
-				"config":      entry.Config,
+				"index":  entry.Index,
+				"uri":    entry.URI,
+				"method": entry.Method,
+				//"config":      entry.Config,
 				"ports_usage": PortsUsage,
-				"redirects":   entry.Redirects,
-				"cert_info":   entry.CertInfo,
+				//"redirects":   entry.Redirects,
+				//"cert_info":   entry.CertInfo,
 			})
 		}
 	}
@@ -315,11 +330,11 @@ func processDomainResult2(obj models.DomainResult) *DomainCheckDifResult {
 		srvConfig, _ = parseConfig_SRV(&obj.SRV)
 		srvPortsUsage := calculate_SRV(obj.SRV)
 		validsrvResult = map[string]interface{}{
-			"srv_records": map[string]interface{}{
-				"recv": obj.SRV.RecvRecords,
-				"send": obj.SRV.SendRecords,
-			},
-			"dns_record":  obj.SRV.DNSRecord,
+			// "srv_records": map[string]interface{}{
+			// 	"recv": obj.SRV.RecvRecords,
+			// 	"send": obj.SRV.SendRecords,
+			// },
+			//"dns_record":  obj.SRV.DNSRecord,
 			"ports_usage": srvPortsUsage,
 		}
 	}
@@ -365,7 +380,7 @@ func processDomainResult2(obj models.DomainResult) *DomainCheckDifResult {
 // 从 init.jsonl 中读取每行域名结果，分析机制内外差异并保存
 func CheckDifferences() {
 	inputFile := "/home/wzq/scan-website/cmd/init.jsonl"
-	outputFile := "/home/wzq/scan-website/cmd/check_dif_results.jsonl"
+	outputFile := "/home/wzq/scan-website/cmd/check_dif_resultsv3.jsonl"
 
 	file, err := os.Open(inputFile)
 	if err != nil {

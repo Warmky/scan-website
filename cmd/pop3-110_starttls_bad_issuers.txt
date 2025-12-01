@@ -1,0 +1,4 @@
+GeoTrust TLS RSA CA G1
+Go Daddy Secure Certificate Authority - G2
+R11
+post.monarchmail.xyz

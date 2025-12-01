@@ -1,0 +1,332 @@
+[imap-143] imap.gmail.hu  (1 domains)
+    - gportal.hu
+
+[imap-143] post.monarchmail.xyz  (1 domains)
+    - kanker.website
+
+[imap-143] imap.isomedia.com  (1 domains)
+    - seanet.com
+
+[imap-993] ados.fr  (1 domains)
+    - ados.fr
+
+[imap-993] mail.adios.net  (1 domains)
+    - adios.net
+
+[imap-993] asurfer.com  (1 domains)
+    - asurfer.com
+
+[imap-993] mail.asurfer.com  (1 domains)
+    - asurfer.com
+
+[imap-993] mail.anit.ro  (1 domains)
+    - anit.ro
+
+[imap-993] mail.blogos.net  (1 domains)
+    - blogos.net
+
+[imap-993] mail.campano.cl  (1 domains)
+    - campano.cl
+
+[imap-993] mail.catcha.com  (1 domains)
+    - catcha.com
+
+[imap-993] mail.america.hm  (1 domains)
+    - america.hm
+
+[imap-993] imap.sfr.fr  (3 domains)
+    - club-internet.fr
+    - sfr.fr
+    - neuf.fr
+
+[imap-993] mail.deadspam.com  (1 domains)
+    - deadspam.com
+
+[imap-993] mail.doxcity.net  (1 domains)
+    - doxcity.net
+
+[imap-993] esc.la  (1 domains)
+    - esc.la
+
+[imap-993] imap.purelymail.com  (2 domains)
+    - mail333.com
+    - ghostmail.com
+
+[imap-993] mail.garbage.com  (1 domains)
+    - garbage.com
+
+[imap-993] imap.gmail.hu  (1 domains)
+    - gportal.hu
+
+[imap-993] imap.gazeta.pl  (1 domains)
+    - gazeta.pl
+
+[imap-993] mail.icestorm.com  (1 domains)
+    - icestorm.com
+
+[imap-993] sa15.serverdomain.org  (2 domains)
+    - mycleaninbox.net
+    - inboxclean.org
+
+[imap-993] post.monarchmail.xyz  (1 domains)
+    - kanker.website
+
+[imap-993] mail.latino.com  (1 domains)
+    - latino.com
+
+[imap-993] mail-pro.info  (1 domains)
+    - mail-pro.info
+
+[imap-993] mail.mail-pro.info  (1 domains)
+    - mail-pro.info
+
+[imap-993] mail.lolfreak.net  (1 domains)
+    - lolfreak.net
+
+[imap-993] metta.lk  (1 domains)
+    - metta.lk
+
+[imap-993] mail.metta.lk  (1 domains)
+    - metta.lk
+
+[imap-993] mail.mobi.web.id  (1 domains)
+    - mobi.web.id
+
+[imap-993] nanonym.ch  (1 domains)
+    - nanonym.ch
+
+[imap-993] mail.net4you.net  (1 domains)
+    - net4you.at
+
+[imap-993] probemail.com  (1 domains)
+    - probemail.com
+
+[imap-993] mail.q.com  (1 domains)
+    - q.com
+
+[imap-993] mail.pobox.hu  (1 domains)
+    - pobox.hu
+
+[imap-993] mail.rax.la  (1 domains)
+    - rax.la
+
+[imap-993] royalhost.info  (1 domains)
+    - royalhost.info
+
+[imap-993] mail.royalhost.info  (1 domains)
+    - royalhost.info
+
+[imap-993] sapya.com  (1 domains)
+    - sapya.com
+
+[imap-993] imap.isomedia.com  (1 domains)
+    - seanet.com
+
+[imap-993] mail.shuf.com  (1 domains)
+    - shuf.com
+
+[imap-993] spambox.us  (1 domains)
+    - spambox.us
+
+[imap-993] imap.tools.sky.com  (1 domains)
+    - sky.com
+
+[imap-993] soccermomz.com  (1 domains)
+    - soccermomz.com
+
+[imap-993] mail.soccermomz.com  (1 domains)
+    - soccermomz.com
+
+[imap-993] mail.the-boss.com  (1 domains)
+    - the-boss.com
+
+[imap-993] mail.theroyalweb.club  (1 domains)
+    - theroyalweb.club
+
+[imap-993] mail.trashinbox.com  (1 domains)
+    - trashinbox.com
+
+[imap-993] host24.profi-server.at  (1 domains)
+    - trash247.com
+
+[imap-993] mail.tonymanso.com  (1 domains)
+    - tonymanso.com
+
+[imap-993] w9f.de  (1 domains)
+    - w9f.de
+
+[pop3-110] post.monarchmail.xyz  (1 domains)
+    - kanker.website
+
+[pop3-995] ados.fr  (1 domains)
+    - ados.fr
+
+[pop3-995] sa15.serverdomain.org  (2 domains)
+    - mycleaninbox.net
+    - inboxclean.org
+
+[pop3-995] post.monarchmail.xyz  (1 domains)
+    - kanker.website
+
+[pop3-995] nanonym.ch  (1 domains)
+    - nanonym.ch
+
+[pop3-995] probemail.com  (1 domains)
+    - probemail.com
+
+[pop3-995] mail.q.com  (1 domains)
+    - q.com
+
+[pop3-995] sapya.com  (1 domains)
+    - sapya.com
+
+[pop3-995] host24.profi-server.at  (1 domains)
+    - trash247.com
+
+[pop3-995] w9f.de  (1 domains)
+    - w9f.de
+
+[smtp-465] ados.fr  (1 domains)
+    - ados.fr
+
+[smtp-465] mail.adios.net  (1 domains)
+    - adios.net
+
+[smtp-465] asurfer.com  (1 domains)
+    - asurfer.com
+
+[smtp-465] mail.asurfer.com  (1 domains)
+    - asurfer.com
+
+[smtp-465] mail.anit.ro  (1 domains)
+    - anit.ro
+
+[smtp-465] mail.blogos.net  (1 domains)
+    - blogos.net
+
+[smtp-465] mail.campano.cl  (1 domains)
+    - campano.cl
+
+[smtp-465] mail.catcha.com  (1 domains)
+    - catcha.com
+
+[smtp-465] mail.america.hm  (1 domains)
+    - america.hm
+
+[smtp-465] mail.deadspam.com  (1 domains)
+    - deadspam.com
+
+[smtp-465] mail.doxcity.net  (1 domains)
+    - doxcity.net
+
+[smtp-465] esc.la  (1 domains)
+    - esc.la
+
+[smtp-465] mail.garbage.com  (1 domains)
+    - garbage.com
+
+[smtp-465] mail.icestorm.com  (1 domains)
+    - icestorm.com
+
+[smtp-465] sa15.serverdomain.org  (2 domains)
+    - mycleaninbox.net
+    - inboxclean.org
+
+[smtp-465] post.monarchmail.xyz  (1 domains)
+    - kanker.website
+
+[smtp-465] mail.latino.com  (1 domains)
+    - latino.com
+
+[smtp-465] mail-pro.info  (1 domains)
+    - mail-pro.info
+
+[smtp-465] mail.mail-pro.info  (1 domains)
+    - mail-pro.info
+
+[smtp-465] mail.lolfreak.net  (1 domains)
+    - lolfreak.net
+
+[smtp-465] metta.lk  (1 domains)
+    - metta.lk
+
+[smtp-465] mail.metta.lk  (1 domains)
+    - metta.lk
+
+[smtp-465] mail.mobi.web.id  (1 domains)
+    - mobi.web.id
+
+[smtp-465] nanonym.ch  (1 domains)
+    - nanonym.ch
+
+[smtp-465] probemail.com  (1 domains)
+    - probemail.com
+
+[smtp-465] mail.pobox.hu  (1 domains)
+    - pobox.hu
+
+[smtp-465] mail.rax.la  (1 domains)
+    - rax.la
+
+[smtp-465] royalhost.info  (1 domains)
+    - royalhost.info
+
+[smtp-465] mail.royalhost.info  (1 domains)
+    - royalhost.info
+
+[smtp-465] sapya.com  (1 domains)
+    - sapya.com
+
+[smtp-465] mail.shuf.com  (1 domains)
+    - shuf.com
+
+[smtp-465] spambox.us  (1 domains)
+    - spambox.us
+
+[smtp-465] soccermomz.com  (1 domains)
+    - soccermomz.com
+
+[smtp-465] mail.soccermomz.com  (1 domains)
+    - soccermomz.com
+
+[smtp-465] mail.the-boss.com  (1 domains)
+    - the-boss.com
+
+[smtp-465] mail.theroyalweb.club  (1 domains)
+    - theroyalweb.club
+
+[smtp-465] mail.trashinbox.com  (1 domains)
+    - trashinbox.com
+
+[smtp-465] host24.profi-server.at  (1 domains)
+    - trash247.com
+
+[smtp-465] mail.tonymanso.com  (1 domains)
+    - tonymanso.com
+
+[smtp-465] w9f.de  (1 domains)
+    - w9f.de
+
+[smtp-587] post.monarchmail.xyz  (1 domains)
+    - kanker.website
+
+[smtp-587] mail.net4you.net  (1 domains)
+    - net4you.at
+
+[pop3s-995] nanonym.ch  (1 domains)
+    - nanonym.ch
+
+[pop3s-995] mail.rax.la  (1 domains)
+    - rax.la
+
+[imaps-993] imap.gmail.hu  (1 domains)
+    - gportal.hu
+
+[imaps-993] nanonym.ch  (1 domains)
+    - nanonym.ch
+
+[imaps-993] mail.rax.la  (1 domains)
+    - rax.la
+
+[smtps-465] mail.rax.la  (1 domains)
+    - rax.la

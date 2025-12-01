@@ -1,0 +1,4 @@
+mail.lycos.com.cust.b.hostedemail.com
+mail.terra.cl.cust.a.hostedemail.com
+pop.gmail.hu
+post.monarchmail.xyz

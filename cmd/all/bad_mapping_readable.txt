@@ -1,0 +1,1052 @@
+=== [imap-143] ===
+imap.gmail.hu  (1 domains)
+    - gportal.hu
+
+imap.isomedia.com  (1 domains)
+    - seanet.com
+
+imap.smoug.net  (1 domains)
+    - smoug.net
+
+mail.lycos.com.cust.b.hostedemail.com  (2 domains)
+    - lycos.com
+    - lycos.co.uk
+
+mail.terra.cl.cust.a.hostedemail.com  (1 domains)
+    - terra.cl
+
+post.monarchmail.xyz  (1 domains)
+    - kanker.website
+
+www.poczta.fm  (1 domains)
+    - poczta.fm
+
+=== [imap-993] ===
+ados.fr  (1 domains)
+    - ados.fr
+
+asurfer.com  (1 domains)
+    - asurfer.com
+
+esc.la  (1 domains)
+    - esc.la
+
+host24.profi-server.at  (1 domains)
+    - trash247.com
+
+imap.gazeta.pl  (1 domains)
+    - gazeta.pl
+
+imap.gmail.hu  (1 domains)
+    - gportal.hu
+
+imap.isomedia.com  (1 domains)
+    - seanet.com
+
+imap.purelymail.com  (2 domains)
+    - mail333.com
+    - ghostmail.com
+
+imap.sfr.fr  (3 domains)
+    - club-internet.fr
+    - sfr.fr
+    - neuf.fr
+
+imap.tools.sky.com  (1 domains)
+    - sky.com
+
+mail-pro.info  (1 domains)
+    - mail-pro.info
+
+mail.adios.net  (1 domains)
+    - adios.net
+
+mail.america.hm  (1 domains)
+    - america.hm
+
+mail.anit.ro  (1 domains)
+    - anit.ro
+
+mail.asurfer.com  (1 domains)
+    - asurfer.com
+
+mail.blogos.net  (1 domains)
+    - blogos.net
+
+mail.campano.cl  (1 domains)
+    - campano.cl
+
+mail.catcha.com  (1 domains)
+    - catcha.com
+
+mail.deadspam.com  (1 domains)
+    - deadspam.com
+
+mail.doxcity.net  (1 domains)
+    - doxcity.net
+
+mail.garbage.com  (1 domains)
+    - garbage.com
+
+mail.icestorm.com  (1 domains)
+    - icestorm.com
+
+mail.latino.com  (1 domains)
+    - latino.com
+
+mail.lolfreak.net  (1 domains)
+    - lolfreak.net
+
+mail.mail-pro.info  (1 domains)
+    - mail-pro.info
+
+mail.metta.lk  (1 domains)
+    - metta.lk
+
+mail.mobi.web.id  (1 domains)
+    - mobi.web.id
+
+mail.net4you.net  (1 domains)
+    - net4you.at
+
+mail.pobox.hu  (1 domains)
+    - pobox.hu
+
+mail.q.com  (1 domains)
+    - q.com
+
+mail.rax.la  (1 domains)
+    - rax.la
+
+mail.royalhost.info  (1 domains)
+    - royalhost.info
+
+mail.shuf.com  (1 domains)
+    - shuf.com
+
+mail.soccermomz.com  (1 domains)
+    - soccermomz.com
+
+mail.the-boss.com  (1 domains)
+    - the-boss.com
+
+mail.theroyalweb.club  (1 domains)
+    - theroyalweb.club
+
+mail.tonymanso.com  (1 domains)
+    - tonymanso.com
+
+mail.trashinbox.com  (1 domains)
+    - trashinbox.com
+
+metta.lk  (1 domains)
+    - metta.lk
+
+nanonym.ch  (1 domains)
+    - nanonym.ch
+
+post.monarchmail.xyz  (1 domains)
+    - kanker.website
+
+probemail.com  (1 domains)
+    - probemail.com
+
+royalhost.info  (1 domains)
+    - royalhost.info
+
+sa15.serverdomain.org  (2 domains)
+    - mycleaninbox.net
+    - inboxclean.org
+
+sapya.com  (1 domains)
+    - sapya.com
+
+soccermomz.com  (1 domains)
+    - soccermomz.com
+
+spambox.us  (1 domains)
+    - spambox.us
+
+w9f.de  (1 domains)
+    - w9f.de
+
+=== [imaps-993] ===
+imap.gmail.hu  (1 domains)
+    - gportal.hu
+
+mail.lycos.com.cust.b.hostedemail.com  (2 domains)
+    - lycos.com
+    - lycos.co.uk
+
+mail.rax.la  (1 domains)
+    - rax.la
+
+nanonym.ch  (1 domains)
+    - nanonym.ch
+
+www.poczta.fm  (1 domains)
+    - poczta.fm
+
+=== [pop3-110] ===
+mail.lycos.com.cust.b.hostedemail.com  (2 domains)
+    - lycos.com
+    - lycos.co.uk
+
+mail.terra.cl.cust.a.hostedemail.com  (1 domains)
+    - terra.cl
+
+pop.gmail.hu  (1 domains)
+    - gportal.hu
+
+pop.isomedia.com  (1 domains)
+    - seanet.com
+
+post.monarchmail.xyz  (1 domains)
+    - kanker.website
+
+=== [pop3-995] ===
+ados.fr  (1 domains)
+    - ados.fr
+
+host24.profi-server.at  (1 domains)
+    - trash247.com
+
+mail.q.com  (1 domains)
+    - q.com
+
+nanonym.ch  (1 domains)
+    - nanonym.ch
+
+pop.gmail.hu  (1 domains)
+    - gportal.hu
+
+pop.isomedia.com  (1 domains)
+    - seanet.com
+
+pop.sfr.fr  (3 domains)
+    - club-internet.fr
+    - sfr.fr
+    - neuf.fr
+
+pop.tools.sky.com  (1 domains)
+    - sky.com
+
+pop3.gazeta.pl  (1 domains)
+    - gazeta.pl
+
+post.monarchmail.xyz  (1 domains)
+    - kanker.website
+
+probemail.com  (1 domains)
+    - probemail.com
+
+sa15.serverdomain.org  (2 domains)
+    - mycleaninbox.net
+    - inboxclean.org
+
+sapya.com  (1 domains)
+    - sapya.com
+
+secure61.webhostinghub.com  (1 domains)
+    - tonymanso.com
+
+w9f.de  (1 domains)
+    - w9f.de
+
+=== [pop3s-995] ===
+mail.lycos.com.cust.b.hostedemail.com  (2 domains)
+    - lycos.com
+    - lycos.co.uk
+
+mail.rax.la  (1 domains)
+    - rax.la
+
+nanonym.ch  (1 domains)
+    - nanonym.ch
+
+pop.gmail.hu  (1 domains)
+    - gportal.hu
+
+=== [smtp-465] ===
+ados.fr  (1 domains)
+    - ados.fr
+
+asurfer.com  (1 domains)
+    - asurfer.com
+
+esc.la  (1 domains)
+    - esc.la
+
+host24.profi-server.at  (1 domains)
+    - trash247.com
+
+mail-pro.info  (1 domains)
+    - mail-pro.info
+
+mail.adios.net  (1 domains)
+    - adios.net
+
+mail.america.hm  (1 domains)
+    - america.hm
+
+mail.anit.ro  (1 domains)
+    - anit.ro
+
+mail.asurfer.com  (1 domains)
+    - asurfer.com
+
+mail.blogos.net  (1 domains)
+    - blogos.net
+
+mail.campano.cl  (1 domains)
+    - campano.cl
+
+mail.catcha.com  (1 domains)
+    - catcha.com
+
+mail.deadspam.com  (1 domains)
+    - deadspam.com
+
+mail.doxcity.net  (1 domains)
+    - doxcity.net
+
+mail.garbage.com  (1 domains)
+    - garbage.com
+
+mail.icestorm.com  (1 domains)
+    - icestorm.com
+
+mail.latino.com  (1 domains)
+    - latino.com
+
+mail.lolfreak.net  (1 domains)
+    - lolfreak.net
+
+mail.mail-pro.info  (1 domains)
+    - mail-pro.info
+
+mail.metta.lk  (1 domains)
+    - metta.lk
+
+mail.mobi.web.id  (1 domains)
+    - mobi.web.id
+
+mail.pobox.hu  (1 domains)
+    - pobox.hu
+
+mail.rax.la  (1 domains)
+    - rax.la
+
+mail.royalhost.info  (1 domains)
+    - royalhost.info
+
+mail.shuf.com  (1 domains)
+    - shuf.com
+
+mail.soccermomz.com  (1 domains)
+    - soccermomz.com
+
+mail.the-boss.com  (1 domains)
+    - the-boss.com
+
+mail.theroyalweb.club  (1 domains)
+    - theroyalweb.club
+
+mail.tonymanso.com  (1 domains)
+    - tonymanso.com
+
+mail.trashinbox.com  (1 domains)
+    - trashinbox.com
+
+metta.lk  (1 domains)
+    - metta.lk
+
+nanonym.ch  (1 domains)
+    - nanonym.ch
+
+post.monarchmail.xyz  (1 domains)
+    - kanker.website
+
+probemail.com  (1 domains)
+    - probemail.com
+
+royalhost.info  (1 domains)
+    - royalhost.info
+
+sa15.serverdomain.org  (2 domains)
+    - mycleaninbox.net
+    - inboxclean.org
+
+sapya.com  (1 domains)
+    - sapya.com
+
+secure61.webhostinghub.com  (1 domains)
+    - tonymanso.com
+
+smtp.gazeta.pl  (1 domains)
+    - gazeta.pl
+
+smtp.gmail.hu  (1 domains)
+    - gportal.hu
+
+smtp.isomedia.com  (1 domains)
+    - seanet.com
+
+smtp.mail2world.com  (614 domains)
+    - mail2arabia.com
+    - mail2connecticut.com
+    - mail2stock.com
+    - mail2woman.com
+    - mail2sagittarius.com
+    - mail2sierraleone.com
+    - mail2srilanka.com
+    - mail2myplane.com
+    - mail2saturn.com
+    - mail2brussels.com
+    - mail2hot.com
+    - mail2nigeria.com
+    - mail2danny.com
+    - mail2namibia.com
+    - mail2sports.com
+    - mail2yugoslavia.com
+    - mail2michelle.com
+    - mail2whip.com
+    - mail2unsubscribe.com
+    - mail2nevada.com
+    - mail2webtv.com
+    - mail2chicago.com
+    - mail2aether.com
+    - mail2farmer.com
+    - mail2debby.com
+    - mail2kyle.com
+    - mail2litigator.com
+    - mail2alaska.com
+    - mail2atlas.com
+    - mail2mike.com
+    - mail2raymond.com
+    - mail2seychelles.com
+    - mail2waiter.com
+    - mail2alyssa.com
+    - mail2no.com
+    - mail2bill.com
+    - mail2stlouis.com
+    - mail2coastguard.com
+    - mail2protect.com
+    - mail2milkyway.com
+    - mail2faith.com
+    - mail2pm.com
+    - mail2site.com
+    - mail2italy.com
+    - mail2kosher.com
+    - mail2sound.com
+    - mail2dominicanrepublic.com
+    - mail2botswana.com
+    - mail2deanna.com
+    - mail2sal.com
+    - mail2tunisia.com
+    - mail2miracle.com
+    - mail2leone.com
+    - mail2time.com
+    - mail2broker.com
+    - mail2derek.com
+    - mail2courtney.com
+    - mail2jacob.com
+    - mail2ricky.com
+    - mail2oslo.com
+    - mail2samantha.com
+    - mail2kendall.com
+    - mail2band.com
+    - mail2joy.com
+    - mail2mississippi.com
+    - mail2shane.com
+    - mail2gavin.com
+    - mail2power.com
+    - mail2robert.com
+    - mail2toby.com
+    - mail2katie.com
+    - mail2worship.com
+    - mail2franklin.com
+    - mail2fancy.com
+    - mail2valley.com
+    - mail2recruiter.com
+    - mail2erin.com
+    - mail2mandy.com
+    - mail2uruguay.com
+    - mail2art.com
+    - mail2navy.com
+    - mail2bio.com
+    - mail2diver.com
+    - mail2chile.com
+    - mail2matthew.com
+    - mail2jane.com
+    - mail2nelson.com
+    - mail2jessica.com
+    - mail2jon.com
+    - mail2emily.com
+    - mail2state.com
+    - mail2bahamas.com
+    - mail2peggy.com
+    - mail2computers.com
+    - mail2sarah.com
+    - mail2milano.com
+    - mail2bosnia.com
+    - mail2liechtenstein.com
+    - mail2mambo.com
+    - mail2syria.com
+    - mail2mors.com
+    - mail2japan.com
+    - mail2mycar.com
+    - mail2evelyn.com
+    - mail2juggler.com
+    - mail2feeling.com
+    - mail2marshallislands.com
+    - mail2msright.com
+    - mail2allan.com
+    - mail2louis.com
+    - mail2becky.com
+    - mail2jamie.com
+    - mail2help.com
+    - mail2ronnie.com
+    - mail2mexico.com
+    - mail2footballfan.com
+    - mail2melissa.com
+    - mail2newmexico.com
+    - mail2phil.com
+    - mail2diamond.com
+    - mail2ride.com
+    - mail2luxury.com
+    - mail2soccer.com
+    - mail2zoologist.com
+    - mail2hal.com
+    - mail2jennifer.com
+    - mail2australia.com
+    - mail2dealer.com
+    - mail2carolyn.com
+    - mail2mrright.com
+    - mail2dan.com
+    - mail2found.com
+    - mail2rich.com
+    - mail2headhunter.com
+    - mail2college.com
+    - mail2venous.com
+    - mail2tramp.com
+    - mail2director.com
+    - mail2southafrica.com
+    - mail2liquid.com
+    - mail2shoot.com
+    - mail2cowboy.com
+    - mail2irving.com
+    - mail2brian.com
+    - mail2karate.com
+    - mail2baby.com
+    - mail2pisces.com
+    - mail2traveler.com
+    - mail2green.com
+    - mail2cat.com
+    - mail2peru.com
+    - mail2bangladesh.com
+    - mail2fighter.com
+    - mail2elvis.com
+    - mail2smile.com
+    - mail2iowa.com
+    - mail2persian.com
+    - mail2whether.com
+    - mail2jesus.com
+    - mail2joann.com
+    - mail2beijing.com
+    - mail2czechrepublic.com
+    - mail2studio54.com
+    - mail2madagascar.com
+    - mail2hungry.com
+    - mail2memphis.com
+    - mail2justme.com
+    - mail2max.com
+    - mail2football.com
+    - mail2april.com
+    - mail2hawaii.com
+    - mail2nun.com
+    - mail2rage.com
+    - mail2calvin.com
+    - mail2runner.com
+    - mail2store.com
+    - mail2rock.com
+    - mail2mars.com
+    - mail2economist.com
+    - mail2valerie.com
+    - mail2keen.com
+    - mail2marilyn.com
+    - mail2chuck.com
+    - mail2goddess.com
+    - mail2hindu.com
+    - mail2sandy.com
+    - mail2mouseketeer.com
+    - mail2cardinal.com
+    - mail2gordon.com
+    - mail2northamerica.com
+    - mail2kenny.com
+    - mail2isaac.com
+    - mail2rabbi.com
+    - mail2uptown.com
+    - mail2join.com
+    - mail2computer.com
+    - mail2paralegal.com
+    - mail2pennsylvania.com
+    - mail2nepal.com
+    - mail2neal.com
+    - mail2rosie.com
+    - mail2mason.com
+    - mail2taylor.com
+    - mail2elliot.com
+    - mail2missionary.com
+    - mail2saudi.com
+    - mail2fever.com
+    - mail2coach.com
+    - mail2venus.com
+    - mail2medieval.com
+    - mail2norman.com
+    - mail2marcia.com
+    - mail2westend.com
+    - mail2george.com
+    - mail2oops.com
+    - mail2poet.com
+    - mail2allen.com
+    - mail2andorra.com
+    - mail2jason.com
+    - mail2terri.com
+    - mail2la.com
+    - mail2rodney.com
+    - mail2free.com
+    - mail2douglas.com
+    - mail2mechanic.com
+    - mail2dough.com
+    - mail2irresistible.com
+    - mail2morpheus.com
+    - mail2samurai.com
+    - mail2lola.com
+    - mail2japanese.com
+    - mail2hades.com
+    - mail2pharmacist.com
+    - mail2rusty.com
+    - mail2marty.com
+    - mail2reed.com
+    - mail2gloria.com
+    - mail2kerry.com
+    - mail2bug.com
+    - mail2dow.com
+    - mail2judge.com
+    - mail2gerald.com
+    - mail2mypalm.com
+    - mail2neil.com
+    - mail2musician.com
+    - mail2lloyd.com
+    - mail2usa.com
+    - mail2golfclub.com
+    - mail2eris.com
+    - mail2minneapolis.com
+    - mail2swiss.com
+    - mail2pat.com
+    - mail2mypager.com
+    - mail2stockholm.com
+    - mail2liz.com
+    - mail2wave.com
+    - mail2kay.com
+    - mail2afghanistan.com
+    - mail2from.com
+    - mail2ask.com
+    - mail2italian.com
+    - mail2fairy.com
+    - mail2alexa.com
+    - mail2anne.com
+    - mail2moscow.com
+    - mail2stanley.com
+    - mail2vamoose.com
+    - mail2diane.com
+    - mail2lynn.com
+    - mail2malaysia.com
+    - mail2nasdaq.com
+    - mail2intense.com
+    - mail2tycoon.com
+    - mail2julie.com
+    - mail2bobby.com
+    - mail2phyllis.com
+    - mail2storage.com
+    - mail2lao.com
+    - mail2mongolia.com
+    - mail2telephone.com
+    - mail2westvirginia.com
+    - mail2xfiles.com
+    - mail2chef.com
+    - mail2architect.com
+    - mail2flexible.com
+    - mail2pluto.com
+    - mail2yes.com
+    - mail2brazil.com
+    - mail2son.com
+    - mail2jeremy.com
+    - mail2bob.com
+    - mail2cook.com
+    - mail2karen.com
+    - mail2party.com
+    - mail2hope.com
+    - mail2missouri.com
+    - mail2stacy.com
+    - prodigy.net.mx
+    - mail2imam.com
+    - mail2cutey.com
+    - mail2money.com
+    - mail2pan.com
+    - mail2jonathan.com
+    - mail2france.com
+    - mail2timothy.com
+    - mail2mom.com
+    - mail2bonn.com
+    - mail2mba.com
+    - mail2apollo.com
+    - mail2joel.com
+    - mail2myphone.com
+    - mail2janet.com
+    - mail2online.com
+    - mail2jordan.com
+    - mail2michigan.com
+    - mail2jones.com
+    - mail2cell.com
+    - mail2oklahoma.com
+    - mail2cancer.com
+    - mail2catlover.com
+    - mail2customs.com
+    - mail2haiti.com
+    - mail2cry.com
+    - mail2rod.com
+    - mail2white.com
+    - mail2denmark.com
+    - mail2bulgaria.com
+    - mail2expert.com
+    - mail2color.com
+    - mail2herman.com
+    - mail2mauritania.com
+    - mail2dennis.com
+    - mail2psychiatrist.com
+    - mail2zoo.com
+    - mail2joanna.com
+    - mail2muslim.com
+    - mail2dyke.com
+    - mail2reggie.com
+    - mail2marc.com
+    - mail2vanessa.com
+    - mail2wired.com
+    - mail2tennessee.com
+    - mail2lithuania.com
+    - mail2catwalk.com
+    - mail2biker.com
+    - mail2slovakia.com
+    - mail2russell.com
+    - mail2james.com
+    - mail2congo.com
+    - mail2beverly.com
+    - mail2casey.com
+    - mail2tracey.com
+    - mail2grandma.com
+    - mail2gilbert.com
+    - mail2mexican.com
+    - mail2earth.com
+    - mail2paris.com
+    - mail2marsha.com
+    - mail2hollywood.com
+    - mail2school.com
+    - mail2kyrgyzstan.com
+    - mail2diehard.com
+    - mail2filmfestival.com
+    - mail2biologist.com
+    - mail2indian.com
+    - mail2dawn.com
+    - mail2jessie.com
+    - mail2amazing.com
+    - mail2disco.com
+    - mail2chinese.com
+    - mail2diplomat.com
+    - mail2monty.com
+    - mail2beatles.com
+    - mail2socialist.com
+    - mail2willie.com
+    - mail2black.com
+    - mail2athena.com
+    - mail2mankind.com
+    - mail2alcoholic.com
+    - mail2canada.com
+    - mail2astronomer.com
+    - mail2lois.com
+    - mail2laugh.com
+    - mail2anesthesiologist.com
+    - mail2agent.com
+    - mail2gary.com
+    - mail2madrid.com
+    - mail2donna.com
+    - mail2austria.com
+    - mail2fond.com
+    - mail2nemesis.com
+    - mail2grace.com
+    - mail2bombay.com
+    - mail2kristin.com
+    - mail2actor.com
+    - mail2simon.com
+    - mail2slovenia.com
+    - mail2bar.com
+    - mail2nancy.com
+    - mail2sandra.com
+    - mail2spain.com
+    - mail2cindy.com
+    - mail2bradley.com
+    - mail2roy.com
+    - mail2man.com
+    - mail2cathy.com
+    - mail2greece.com
+    - mail2turkmenistan.com
+    - mail2weird.com
+    - mail2turbo.com
+    - mail2fondness.com
+    - mail2fanatic.com
+    - mail2kenya.com
+    - mail2heal.com
+    - mail2secretagent.com
+    - mail2minister.com
+    - mail2rudy.com
+    - mail2fat.com
+    - mail2lionel.com
+    - mail2maurice.com
+    - mail2travis.com
+    - mail2mylaptop.com
+    - mail2christie.com
+    - mail2harold.com
+    - mail2kelsey.com
+    - mail2tickets.com
+    - mail2nauru.com
+    - mail2banker.com
+    - mail2ernie.com
+    - mail2perry.com
+    - mail2way.com
+    - mail2kuwait.com
+    - mail2breakfast.com
+    - mail2maryland.com
+    - mail2southpole.com
+    - mail2homer.com
+    - mail2sanmarino.com
+    - mail2freudian.com
+    - mail2popular.com
+    - mail2world.com
+    - mail2hank.com
+    - mail2kurt.com
+    - mail2prince.com
+    - mail2lust.com
+    - mail2trex.com
+    - mail2caroline.com
+    - mail2gail.com
+    - mail2lance.com
+    - mail2hygeia.com
+    - mail2boston.com
+    - mail2fireman.com
+    - mail2europe.com
+    - mail2switzerland.com
+    - mail2jumbo.com
+    - mail2monaco.com
+    - mail2wow.com
+    - mail2tiffany.com
+    - mail2randy.com
+    - mail2films.com
+    - mail2lyle.com
+    - mail2uganda.com
+    - mail2ron.com
+    - mail2lovable.com
+    - mail2steve.com
+    - mail2alicia.com
+    - mail2phonecall.com
+    - mail2leon.com
+    - mail2justin.com
+    - mail2environmentalist.com
+    - mail2hongkong.com
+    - mail2spectrum.com
+    - mail2romania.com
+    - mail2aquarius.com
+    - mail2gina.com
+    - mail2henry.com
+    - mail2edwin.com
+    - mail2bankrupt.com
+    - mail2libra.com
+    - mail2beast.com
+    - mail2alec.com
+    - mail2delaware.com
+    - mail2hell.com
+    - mail2hannah.com
+    - mail2mymac.com
+    - mail2uzbekistan.com
+    - mail2blackbelt.com
+    - mail2gambia.com
+    - mail2psychologist.com
+    - mail2paul.com
+    - mail2argentina.com
+    - mail2hungary.com
+    - mail2peter.com
+    - mail2affection.com
+    - mail2dale.com
+    - mail2montana.com
+    - mail2sharon.com
+    - mail2ok.com
+    - mail2fiji.com
+    - mail2kenneth.com
+    - mail2parker.com
+    - mail2song.com
+    - mail2test.com
+    - mail2junk.com
+    - mail2mozambique.com
+    - mail2tenderness.com
+    - mail2kimberly.com
+    - mail2sponsor.com
+    - mail2elsalvador.com
+    - mail2danielle.com
+    - mail2therapy.com
+    - mail2batter.com
+    - mail2mali.com
+    - mail2guy.com
+    - mail2music.com
+    - mail2jaime.com
+    - mail2mgz.com
+    - mail2subscribe.com
+    - mail2mypc.com
+    - mail2stephanie.com
+    - mail2diana.com
+    - mail2germany.com
+    - mail2dc.com
+    - mail2ohio.com
+    - mail2florence.com
+    - mail2ecuador.com
+    - mail2consultant.com
+    - mail2blake.com
+    - mail2culture.com
+    - mail2elizabeth.com
+    - mail2netherlands.com
+    - mail2save.com
+    - mail2movies.com
+    - mail2eros.com
+    - mail2malawi.com
+    - mail2dominic.com
+    - mail2potatohead.com
+    - mail2tyler.com
+    - mail2club.com
+    - mail2pope.com
+    - mail2helen.com
+    - mail2register.com
+    - mail2santa.com
+    - mail2basketball.com
+    - mail2joseph.com
+    - mail2soldier.com
+    - mail2firm.com
+    - mail2sydney.com
+    - mail2recycle.com
+    - mail2rose.com
+    - mail2clint.com
+    - mail2kentucky.com
+    - mail2ahoy.com
+    - mail2tourist.com
+    - mail2vietnam.com
+    - mail2graham.com
+    - mail2eva.com
+    - mail2dana.com
+    - mail2fantasy.com
+    - mail2amanda.com
+    - mail2hebe.com
+    - mail2convict.com
+    - mail2model.com
+    - mail2republican.com
+    - mail2sweetheart.com
+    - mail2honey.com
+    - mail2belize.com
+    - mail2margaret.com
+    - mail2nebraska.com
+    - mail2colombia.com
+    - mail2utah.com
+    - mail2noelle.com
+    - mail2jerry.com
+    - mail2taboo.com
+    - mail2floyd.com
+    - mail2wendy.com
+    - mail2yachtclub.com
+    - mail2ashley.com
+    - mail2caterer.com
+    - mail2president.com
+    - mail2kazakhstan.com
+    - mail2mygsm.com
+    - mail2close.com
+    - mail2massachusetts.com
+    - mail2southkorea.com
+    - mail2crazy.com
+    - mail2heather.com
+    - mail2karma.com
+    - mail2ian.com
+    - mail2maria.com
+    - mail2joan.com
+    - mail2rare.com
+    - mail2star.com
+    - mail2lacrosse.com
+    - mail2estonia.com
+    - mail2bahrain.com
+    - mail2abc.com
+    - mail2janice.com
+    - mail2planet.com
+    - mail2arnold.com
+    - mail2grenada.com
+    - mail2rita.com
+    - mail2surfer.com
+    - mail2ryan.com
+    - mail2jay.com
+    - mail2shawn.com
+    - mail2painter.com
+    - mail2rhodeisland.com
+    - mail2trillionaire.com
+    - mail2tammy.com
+    - mail2phoenix.com
+    - mail2cory.com
+    - mail2married.com
+    - mail2doris.com
+    - mail2marhaba.com
+
+smtp.purelymail.com  (2 domains)
+    - mail333.com
+    - ghostmail.com
+
+smtp.sfr.fr  (3 domains)
+    - club-internet.fr
+    - sfr.fr
+    - neuf.fr
+
+soccermomz.com  (1 domains)
+    - soccermomz.com
+
+spambox.us  (1 domains)
+    - spambox.us
+
+w9f.de  (1 domains)
+    - w9f.de
+
+=== [smtp-587] ===
+mail.lycos.com.cust.b.hostedemail.com  (2 domains)
+    - lycos.com
+    - lycos.co.uk
+
+mail.net4you.net  (1 domains)
+    - net4you.at
+
+post.monarchmail.xyz  (1 domains)
+    - kanker.website
+
+smtp.gmail.hu  (1 domains)
+    - gportal.hu
+
+smtp.iprimus.com.au  (1 domains)
+    - iprimus.com.au
+
+smtp.isomedia.com  (1 domains)
+    - seanet.com
+
+=== [smtps-465] ===
+mail.rax.la  (1 domains)
+    - rax.la
+

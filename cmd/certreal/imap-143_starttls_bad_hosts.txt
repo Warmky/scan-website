@@ -1,0 +1,7 @@
+imap.gmail.hu
+imap.isomedia.com
+imap.smoug.net
+mail.lycos.com.cust.b.hostedemail.com
+mail.terra.cl.cust.a.hostedemail.com
+post.monarchmail.xyz
+www.poczta.fm

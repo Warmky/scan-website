@@ -21,10 +21,10 @@ func QueryAutodiscover(domain string, email string) []models.AutodiscoverResult 
 	// autodiscover_cnameRecords, _ := lookupCNAME(autodiscover_prefixadd)
 	// method1:直接通过text manipulation，直接发出post请求
 	uris := []string{
-		fmt.Sprintf("http://%s/autodiscover/autodiscover.xml", domain),
+		//fmt.Sprintf("http://%s/autodiscover/autodiscover.xml", domain),
 		fmt.Sprintf("https://autodiscover.%s/autodiscover/autodiscover.xml", domain),
-		fmt.Sprintf("http://autodiscover.%s/autodiscover/autodiscover.xml", domain),
-		fmt.Sprintf("https://%s/autodiscover/autodiscover.xml", domain),
+		//fmt.Sprintf("http://autodiscover.%s/autodiscover/autodiscover.xml", domain),
+		//fmt.Sprintf("https://%s/autodiscover/autodiscover.xml", domain),
 	}
 	for i, uri := range uris {
 		index := i + 1
@@ -48,59 +48,59 @@ func QueryAutodiscover(domain string, email string) []models.AutodiscoverResult 
 		results = append(results, result)
 	}
 
-	//method2:通过dns找到server,再post请求
-	service := "_autodiscover._tcp." + domain
-	uriDNS, _, err := utils.LookupSRVWithAD_autodiscover(domain) //
-	if err != nil {
-		result_srv := models.AutodiscoverResult{
-			Domain: domain,
-			Method: "srv-post",
-			Index:  0,
-			Error:  fmt.Sprintf("Failed to lookup SRV records for %s: %v", service, err),
-		}
-		results = append(results, result_srv)
-	} else {
-		//record_ADbit_SRV_autodiscover("autodiscover_record_ad_srv.txt", domain, adBit)
-		_, _, _, redirects, config, certinfo, err1 := getAutodiscoverConfig(domain, uriDNS, email, "srv-post", 0, 0, 0, 0)
-		result_srv := models.AutodiscoverResult{
-			Domain:    domain,
-			Method:    "srv-post",
-			Index:     0,
-			Redirects: redirects,
-			Config:    config,
-			CertInfo:  certinfo,
-			//AutodiscoverCNAME: autodiscover_cnameRecords,
-		}
-		if err1 != nil {
-			result_srv.Error = err1.Error()
-		}
-		results = append(results, result_srv)
-	}
+	// //method2:通过dns找到server,再post请求
+	// service := "_autodiscover._tcp." + domain
+	// uriDNS, _, err := utils.LookupSRVWithAD_autodiscover(domain) //
+	// if err != nil {
+	// 	result_srv := models.AutodiscoverResult{
+	// 		Domain: domain,
+	// 		Method: "srv-post",
+	// 		Index:  0,
+	// 		Error:  fmt.Sprintf("Failed to lookup SRV records for %s: %v", service, err),
+	// 	}
+	// 	results = append(results, result_srv)
+	// } else {
+	// 	//record_ADbit_SRV_autodiscover("autodiscover_record_ad_srv.txt", domain, adBit)
+	// 	_, _, _, redirects, config, certinfo, err1 := getAutodiscoverConfig(domain, uriDNS, email, "srv-post", 0, 0, 0, 0)
+	// 	result_srv := models.AutodiscoverResult{
+	// 		Domain:    domain,
+	// 		Method:    "srv-post",
+	// 		Index:     0,
+	// 		Redirects: redirects,
+	// 		Config:    config,
+	// 		CertInfo:  certinfo,
+	// 		//AutodiscoverCNAME: autodiscover_cnameRecords,
+	// 	}
+	// 	if err1 != nil {
+	// 		result_srv.Error = err1.Error()
+	// 	}
+	// 	results = append(results, result_srv)
+	// }
 
-	//method3：先GET找到server，再post请求
-	getURI := fmt.Sprintf("http://autodiscover.%s/autodiscover/autodiscover.xml", domain) //是通过这个getURI得到server的uri，然后再进行post请求10.26
-	redirects, config, certinfo, err := GET_AutodiscoverConfig(domain, getURI, email)     //一开始的get请求返回的不是重定向的没有管
-	result_GET := models.AutodiscoverResult{
-		Domain:    domain,
-		Method:    "get-post",
-		Index:     0,
-		URI:       getURI,
-		Redirects: redirects,
-		Config:    config,
-		CertInfo:  certinfo,
-		//AutodiscoverCNAME: autodiscover_cnameRecords,
-	}
-	if err != nil {
-		result_GET.Error = err.Error()
-	} //TODO:len(redirect)>0?
-	results = append(results, result_GET)
+	// //method3：先GET找到server，再post请求
+	// getURI := fmt.Sprintf("http://autodiscover.%s/autodiscover/autodiscover.xml", domain) //是通过这个getURI得到server的uri，然后再进行post请求10.26
+	// redirects, config, certinfo, err := GET_AutodiscoverConfig(domain, getURI, email)     //一开始的get请求返回的不是重定向的没有管
+	// result_GET := models.AutodiscoverResult{
+	// 	Domain:    domain,
+	// 	Method:    "get-post",
+	// 	Index:     0,
+	// 	URI:       getURI,
+	// 	Redirects: redirects,
+	// 	Config:    config,
+	// 	CertInfo:  certinfo,
+	// 	//AutodiscoverCNAME: autodiscover_cnameRecords,
+	// }
+	// if err != nil {
+	// 	result_GET.Error = err.Error()
+	// } //TODO:len(redirect)>0?
+	// results = append(results, result_GET)
 
 	//method4:增加几条直接GET请求的路径
 	direct_getURIs := []string{
-		fmt.Sprintf("http://%s/autodiscover/autodiscover.xml", domain),               //uri1
+		//fmt.Sprintf("http://%s/autodiscover/autodiscover.xml", domain),               //uri1
 		fmt.Sprintf("https://autodiscover.%s/autodiscover/autodiscover.xml", domain), //2
-		fmt.Sprintf("http://autodiscover.%s/autodiscover/autodiscover.xml", domain),  //3
-		fmt.Sprintf("https://%s/autodiscover/autodiscover.xml", domain),              //4
+		//fmt.Sprintf("http://autodiscover.%s/autodiscover/autodiscover.xml", domain),  //3
+		//fmt.Sprintf("https://%s/autodiscover/autodiscover.xml", domain),              //4
 	}
 	for i, direct_getURI := range direct_getURIs {
 		index := i + 1

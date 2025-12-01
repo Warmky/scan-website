@@ -1,0 +1,3 @@
+mail.lycos.com.cust.b.hostedemail.com
+post.monarchmail.xyz
+smtp.iprimus.com.au

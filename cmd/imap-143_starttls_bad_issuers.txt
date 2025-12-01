@@ -1,0 +1,7 @@
+Certyfikat SSL
+GeoTrust TLS RSA CA G1
+GlobalSign GCC R6 AlphaSSL CA 2023
+Go Daddy Secure Certificate Authority - G2
+R11
+post.monarchmail.xyz
+smoug.net

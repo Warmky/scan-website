@@ -1,7 +1,7 @@
 package main
 
 import (
-	"scan-website/measurement"
+	"scan-website/scan"
 )
 
 func main() {
@@ -22,5 +22,8 @@ func main() {
 	//measurement.Count()
 	//actualconnect.Extract_no_such_host()
 	//measurement.CountDomains_Certinfo("/home/wzq/scan-website/cmd/init.jsonl")
-	measurement.CheckDifferences()
+	//measurement.CheckDifferences()
+	//measurement.Certvr()
+	//scan.Run()
+	scan.Extract()
 }

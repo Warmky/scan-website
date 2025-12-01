@@ -1,0 +1,3 @@
+Entrust OV TLS Issuing RSA CA 1
+Go Daddy Secure Certificate Authority - G2
+post.monarchmail.xyz
